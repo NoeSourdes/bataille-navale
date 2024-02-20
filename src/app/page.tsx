@@ -5,7 +5,7 @@ import { NavbarComponent } from "@/design/landing-page/header/navbar";
 
 export default function Home() {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <NavbarComponent />
       <div className="max-w-7xl px-5 m-auto space-y-20">
         <CallToAction />

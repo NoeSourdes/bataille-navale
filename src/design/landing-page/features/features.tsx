@@ -101,7 +101,7 @@ export const Features = () => {
               </SpotlightCard>
               <SpotlightCard>
                 <div className="relative h-full bg-background p-6 pb-8 rounded-[inherit] z-20 overflow-hidden flex flex-col justify-between">
-                  <div className="relative w-full h-full">
+                  <div className="relative w-full min-h-80">
                     <Image
                       src="/svg/computer.svg"
                       layout="fill"
@@ -120,7 +120,7 @@ export const Features = () => {
               </SpotlightCard>
               <SpotlightCard>
                 <div className="relative h-full bg-background p-6 pb-8 rounded-[inherit] z-20 overflow-hidden flex flex-col justify-between">
-                  <div className="w-full h-full p-3">
+                  <div className="w-full min-h-80 p-3">
                     <div className="relative w-full h-full">
                       <Image
                         src="/svg/grille.svg"
@@ -152,7 +152,7 @@ export const Features = () => {
               </SpotlightCard>
               <SpotlightCard>
                 <div
-                  className={`relative h-full bg-background p-6 pb-8 rounded-[inherit] z-20 overflow-hidden ${
+                  className={`relative h-full bg-background p-6 pb-8 rounded-[inherit] z-20 overflow-hidden cursor-pointer ${
                     vibrate ? "vibrate" : ""
                   }`}
                   onClick={handleClick}
@@ -165,7 +165,7 @@ export const Features = () => {
               </SpotlightCard>
               <SpotlightCard>
                 <div
-                  className={`relative h-full bg-background p-6 pb-8 rounded-[inherit] z-20 overflow-hidden ${
+                  className={`relative h-full bg-background p-6 pb-8 rounded-[inherit] z-20 overflow-hidden cursor-pointer ${
                     rotate ? "rotate" : ""
                   }`}
                   onClick={handleClickAnimation}
