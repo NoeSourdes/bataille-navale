@@ -46,7 +46,7 @@ export const Features = () => {
     }
   }, []);
 
-  const [play] = useSound("/sound/rising-pops.mp3", { volume: 0.5 });
+  const [play] = useSound("/sound/boom.mp3", { volume: 0.5 });
 
   const [vibrate, setVibrate] = useState(false);
 
@@ -170,10 +170,10 @@ export const Features = () => {
                   }`}
                   onClick={handleClickAnimation}
                 >
-                  <h3 className="text-xl font-bold mb-4">Rotation</h3>
+                  <h3 className="text-xl font-bold mb-4">Animations</h3>
                   <p className="text-gray-500">
-                    Découvrez une rotation complète avec une finition en
-                    douceur.
+                    Intensifiez l&apos;expérience avec des animations
+                    captivantes.
                   </p>
                 </div>
               </SpotlightCard>
